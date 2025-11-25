@@ -13,6 +13,6 @@ spec:
     template:
       buildArgs:
         - name: QUARKUS_EXTENSIONS
-          value: io.quarkus:quarkus-smallrye-reactive-messaging-kafka
+          value: io.quarkus:quarkus-messaging-kafka
     config:
       strategy: operator
